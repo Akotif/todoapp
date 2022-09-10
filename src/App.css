@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,600;1,900&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+.Login {
+  float: left;
+  margin-top: 50px;
+  margin-left: 25%;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.input-user {
+  margin-top: 10px;
+  margin-left: 10%;
+  width: 50%;
+  height: 30px;
+  color: black;
+  border: none;
+  border-radius: 0px;
+  background-color: #d5d5d5;
+  font-family: 'Poppins', sans-serif;
+  padding-inline-start: 2%;
+}
+
+.log-in-button {
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 52%;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(51, 0, 90);
+  margin-bottom: 5%;
+  color: white;
+
+}
+
+.p1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10%;
+  padding-top:2%;
+  margin-bottom: 0px;
+}
+
+.p {
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.p2 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(28, 0, 49);
+}
+
+#mode {
+  height: 30px;
+  margin-right: 3%;
+  margin-left: 0px;
+  margin-top:25px;
+  float: right;
+  border-radius: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  float: left;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 3%;
+}
+
+h4 {
+  padding: 5px;
+  width:fit-content;
+  margin-left: 3%;
+  font-size: 17px;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+  background-color: rgb(51, 0, 90) ;
+}
+
+
+#enterb {
+  background-color: #d5d5d5;
+  padding: 15px;
+  border-radius: 0px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+#enterbE {
+  background-color: #dbbc4a;
+  padding: 15px;
+  border-radius: 0px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input {
+  width: 25%;
+  height: 30px;
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #d5d5d5;
+  font-family: 'Poppins', sans-serif;
+  padding-inline-start: 20px;
+}
+
+.inputEdit {
+  width: 25%;
+  height: 30px;
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color:  #dbbc4a;
+  font-family: 'Poppins', sans-serif;
+  padding-inline-start: 20px;
+}
+
+.input:focus {
+  outline: none;
+  border: none;
+}
+.inputEdit:focus {
+  outline: none;
+  border: none;
+}
+
+.InputPage {
+  text-align: center;
+}
+
+#half {
+  text-align: center;
+  float: left;
+  width: 45%;
+  margin-top: 50px;
+  margin-left: 3%;
+  background-color: rgb(71, 0, 126);
+  padding-bottom: 40px;
+
+}
+
+h3 {
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+}
+
+#button1 {
+  width: 30%;
+  background-color: #a2ff8b;
+  border-radius: 0px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#button2 {
+  color: whitesmoke;
+  width: 30%;
+  background-color: rgb(119, 119, 119);
+  border-radius: 0px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#button3 {
+  color: whitesmoke;
+  width: 30%;
+  background-color: #b81e1e;
+  border-radius: 0px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+#button4 {
+  color: rgb(0, 0, 0);
+  width: 30%;
+  background-color: #dbbc4a;
+  border-radius: 0px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#todo {
+  margin-top: 0;
+  height: 70%;
+  overflow: hidden;
+  text-align: center;
+}
+h5{
+  color:rgb(145, 83, 192);
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.Did {
+  margin-top: 3%;
+  font-size: 14px;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+}
+.Did:focus{
+  outline: none;
+ }
+ .Did::placeholder{
+  color: aliceblue;
+  opacity: 100%;
+ }
+
+.DidL {
+  margin-top: 3%;
+  font-size: 14px;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: rgb(28, 0, 49);
+  overflow: hidden;
+}
+.DidL:focus{
+  border: none;
+  outline: none;
+ }
+
+
+#Did {
+  text-align: center;
+  width: 80%;
+  height: 100px;
+  background-color: rgb(51, 0, 90);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+#DidL {
+  text-align: center;
+  width: 80%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  overflow: hidden;
+
+}
+
+#half1 {
+  text-align: center;
+  float: right;
+  width: 45%;
+  margin-right: 3%;
+  margin-top: 50px;
+  background-color: rgb(71, 0, 126);
+  padding-bottom: 40px;
+}
+
+
+#half1D {
+  color: #a2ff8b;
+  float: right;
+  width: 45%;
+  margin-right: 3%;
+  margin-top: 50px;
+  background-color: #d5d5d5;
+  padding-bottom: 40px;
+
+}
+
+#halfD {
+  color: #a2ff8b;
+  float: left;
+  width: 45%;
+  margin-top: 50px;
+  margin-left: 3%;
+  background-color: #d5d5d5;
+  padding-bottom: 40px;
+
+}
+
+#Iedit{
+  text-align: center;
+  border: none;
+  background-color: #d5d5d5;
+  margin-top: 0;
+  padding:5px;
+  width: 50%;
+  font-family: "Poppins", sans-serif;
+  padding-inline-start: 9%;
+  margin-bottom: 0; 
+}
+#Iedit:focus {
+  outline: none;
+  border: none;
+}
+
+#editE{ 
+  margin-top: 0%;
+  text-align: center;
+  width: 9%;
+  background-color: #dbbc4a;
+  border-radius: 0px;
+  padding: 5px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+}
